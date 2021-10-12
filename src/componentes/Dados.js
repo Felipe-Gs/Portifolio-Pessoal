@@ -13,7 +13,7 @@ export default function Dados(){
             <div style ={{zIndex:2}} class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                <a class="nav-link" href="https://www.canva.com/design/DAEpQGiKoog/f0N0b9J6skUrJvKD9VMyIw/view?utm_content=DAEpQGiKoog&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank">Baixe meu <span class="sr-only">Curriculo</span></a>
+                <a class="nav-link" href="https://www.canva.com/design/DAEpQGiKoog/f0N0b9J6skUrJvKD9VMyIw/view?utm_content=DAEpQGiKoog&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank" rel="noreferrer">Baixe meu <span class="sr-only">Curriculo</span></a>
                 </li>
                 <li class="nav-item">
                 <a class="nav-link" href="https://www.instagram.com/_lipe_gs/" target="_blank" rel="noreferrer">Instagram</a>
