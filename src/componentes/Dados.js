@@ -16,13 +16,13 @@ export default function Dados(){
                 <a class="nav-link" href="https://www.canva.com/design/DAEpQGiKoog/f0N0b9J6skUrJvKD9VMyIw/view?utm_content=DAEpQGiKoog&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank">Baixe meu <span class="sr-only">Curriculo</span></a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="https://www.instagram.com/_lipe_gs/" target="_blank" rel="noreferrer" >Instagram</a>
+                <a class="nav-link" href="https://www.instagram.com/_lipe_gs/" target="_blank" rel="noreferrer">Instagram</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="https://www.linkedin.com/in/felipe-gs/" target="_blank" rel="noreferrer" >Linkedin</a>
+                <a class="nav-link" href="https://www.linkedin.com/in/felipe-gs/" target="_blank" rel="noreferrer">Linkedin</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="https://github.com/felipe-gs" target="_blank" rel="noreferrer" >Github</a>
+                <a class="nav-link" href="https://github.com/felipe-gs" target="_blank" rel="noreferrer">Github</a>
                 </li>
             </ul>
             </div>
