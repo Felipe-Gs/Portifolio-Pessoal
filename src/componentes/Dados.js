@@ -1,11 +1,13 @@
 import React from 'react'
 import '../App.css'
+import logo from '../logo_felipe.png';
 
 export default function Dados(){
     return(
         <section  className='Dados'>
-                    <nav  class="navbar  navbar-expand-lg navbar-dark bg-dark">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <nav  class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a className="navbar-brand" href="#"><img className='logo' src={logo} alt="logo..."/></a>
+            <button style={{zIndex:2}} class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="False" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
             <div style ={{zIndex:2}} class="collapse navbar-collapse" id="navbarNav">
