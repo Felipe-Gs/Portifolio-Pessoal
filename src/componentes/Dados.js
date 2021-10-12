@@ -6,7 +6,7 @@ export default function Dados(){
     return(
         <section  className='Dados'>
             <nav  class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a className="navbar-brand"><img className='logo' src={logo} alt="logo..."/></a>
+            <a className="navbar-brand" href="!#"><img className='logo' src={logo} alt="logo..."/></a>
             <button style={{zIndex:2}} class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="False" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
