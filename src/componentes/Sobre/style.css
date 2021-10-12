@@ -1,0 +1,28 @@
+
+.Sobre{
+    border-radius: 50%;
+    z-index: 2;
+    background-color: #333;
+    margin-top: 20px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+
+}
+.Sobre p{
+    z-index: 2;
+    width: 150px;
+    color: white;
+    
+}
+
+.Sobre h1{
+    z-index: 2;
+    margin-top: 50px;
+    width: 220px;
+    color: white;
+}
+
+

@@ -1,38 +1,104 @@
-.App {
+
+.App{
+  box-sizing: border-box;
   text-align: center;
+  background-color: #333;
+  z-index: 2;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Header{
+  
+  z-index: 2;
+  background-position: center; 
+  background-repeat: no-repeat;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.Corpo{
+  z-index: 5;
+  text-align: center;
+  font-family: monospace;
+  color:#000;
+}
+
+.line{
+  
+  white-space: nowrap;
+  overflow: hidden;
+  z-index: 2;
+  color: rgba(255, 255, 255, 0.75);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1em;
+  margin-top: 290px;
+  text-align: center;
+  text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.line:hover{
+  -webkit-animation: swing 1s ease;
+  animation: swing 1s ease;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+@keyframes blinkCursor{
+  from{
+    border-right-color:rgba(255, 255, 255, 0.75)
+  }to{
+    border-right-color: transparent
+  }
+}
+.typing-animation{
+  animation: blinckCursor 500ms infinite normal, typing 2.3s 1.2s normal;
+}
+@keyframes typing{
+  from{
+    width: 20em;
+  }to{
+    width: 0em;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@media (max-width:768px){
+  
+    @keyframes blinkCursor{
+      from{
+        border-right-color:rgba(255, 255, 255, 0.75)
+      }to{
+        border-right-color: transparent
+      }
+    }
+    .typing-animation{
+      animation: blinckCursor 500ms infinite normal, typing 2s 1s normal;
+    }
+    @keyframes typing{
+      from{
+        width: 2em;
+      }to{
+        width: 1em;
+      }
+    }
+  }
+
+
+
+
+.PrimeiraImagem{
+  z-index: 2;
+  width: 100%;
+  font-size: 50px;
+}
+.SegundaImagem{
+  z-index: 2;
+  width: 100%;
+  font-size: 50px;
+}
+.TerceiraImagem{
+  z-index: 2;
+  width: 100%;
+  font-size: 70%;
 }
 
-.App-link {
-  color: #61dafb;
+.Dados{
+  z-index: 10;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
