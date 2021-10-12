@@ -7,7 +7,6 @@ import Final from './componentes/Final';
 import Particulas from './componentes/Particulas';
 import Icones from './componentes/Icones/index.js'
 import "bootstrap/dist/css/bootstrap.min.css";
-import Navbar from './componentes/Navbar'
 import './App.css'
 
 export default function App(){
