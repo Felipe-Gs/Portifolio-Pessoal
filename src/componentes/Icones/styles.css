@@ -1,0 +1,13 @@
+.Icones svg:hover{
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.Icones svg{
+    margin: 20px;
+}
+
+.Icones{
+    margin-top: 100px;
+}
